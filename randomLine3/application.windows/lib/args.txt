@@ -1,0 +1,3 @@
+
+randomLine3
+randomLine3.jar,core.jar
