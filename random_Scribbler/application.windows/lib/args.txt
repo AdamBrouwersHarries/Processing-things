@@ -1,3 +1,0 @@
-
-random_Scribbler
-random_Scribbler.jar,core.jar

@@ -1,0 +1,31 @@
+        ===DISCRIMINANT FOR CIRCLE LINE INTERSECTION TEST===
+
+FOR THE LINES:
+
+Straight line:
+
+y=mx+c
+
+Circle:
+
+((x-a)*(x-a))+((y-b)*(y-b)) = (r*r)
+
+----------------------------------------------------------------
+
+The discriminant = (b*b)-4(ac)
+
+ar = ((m*m)+1)
+br = ((2*m*c)-(2*a)-(2*b*m))
+cr = ((b*b)+(a*a)+(c*c)-(r*r)-(2*b*c))
+
+therefore
+
+dr = (br*br)-(4*ar*cr)
+
+---------------------------------------------------------------
+With the line and circle classes in orw/e
+
+m = (l.Y1-l.Y2)/(l.X1-l.X2)
+c = l.Y1-(m*l.X1)
+a = c._x;
+b = c._y;

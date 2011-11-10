@@ -10,7 +10,7 @@ float pointY;
 void setup(){
   frameRate(1200);
  //size(speed*100,speed*100);
- size(200,200);
+ size(800,400);
   pointX = width/2;
  pointY = height/2;
 background(0,0,0); 
